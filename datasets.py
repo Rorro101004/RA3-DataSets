@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1. Cargar dataset
-dfVideoJuegos = pd.read_csv("RA3/VideoGamesSales.csv", sep=";")
+dfVideoJuegos = pd.read_csv("RA3-DataSets/VideoGamesSales.csv", sep=";")
 print("=== Primeras filas del dataset ===")
 print(dfVideoJuegos.head(), "\n")
 
